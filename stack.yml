@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  paper-docs:
+    image: registry.gitlab.com/minidigger/paper-docs:latest
+    networks:
+      - web
+
+networks:
+  web:
+    external:
+      name: global_bridge
