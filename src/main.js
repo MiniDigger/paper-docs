@@ -9,7 +9,9 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.config.productionTip = true;
 Vue.use(BootstrapVue);
 
-new Vue({
+const APP = new Vue({
   router,
   render: h => h(App)
 }).$mount('#app');
+
+export default APP;
