@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    import APP from "../main.js";
+    import APP from "@/main.js";
 
     export default {
         name: 'Loader',
@@ -16,7 +16,6 @@
         },
         mounted() {
             APP.$on('set-loader-visible', (visible) => {
-                console.log("hey? " + visible);
                 this.loading = visible;
             })
         }

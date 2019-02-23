@@ -6,8 +6,8 @@
 </template>
 
 <script>
-    import Loader from "../components/Loader";
-    import APP from "../main.js";
+    import Loader from "@/components/Loader";
+    import APP from "@/main.js";
 
     export default {
         name: 'test',

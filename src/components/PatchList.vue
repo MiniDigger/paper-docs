@@ -7,7 +7,7 @@
 </template>
 
 <script>
-    import Patch from "./Patch";
+    import Patch from "@/components/Patch";
 
     export default {
         name: 'PatchList',

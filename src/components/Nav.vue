@@ -13,14 +13,22 @@
             </b-navbar-nav>
 
             <b-navbar-nav class="ml-auto">
-                <b-nav-item href="https://github.com/MiniDigger/paper-docs" target="_blank" right>Fork me on Github!</b-nav-item>
+                <RateLimitDisplay class="mr-2"/>
+
+                <b-nav-item href="https://github.com/MiniDigger/paper-docs" target="_blank" right>Fork me on Github!
+                </b-nav-item>
             </b-navbar-nav>
         </b-collapse>
     </b-navbar>
 </template>
 
 <script>
+    import RateLimitDisplay from "@/components/RateLimitDisplay";
+
     export default {
-        name: 'Nav'
+        name: 'Nav',
+        components: {
+            RateLimitDisplay
+        }
     }
 </script>

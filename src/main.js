@@ -12,6 +12,6 @@ Vue.use(BootstrapVue);
 const APP = new Vue({
   router,
   render: h => h(App)
-}).$mount('#app');
-
+});
 export default APP;
+APP.$mount('#app');
