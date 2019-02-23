@@ -4,6 +4,9 @@ services:
     image: registry.gitlab.com/minidigger/paper-docs:latest
     networks:
       - web
+    labels:
+      - "traefik.backend=paper-docs"
+      - "traefik.frontend.rule=Host:paper-docs.minidigger.me"
 
 networks:
   web:
