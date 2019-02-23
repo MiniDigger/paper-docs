@@ -1,5 +1,9 @@
 # paper-docs [![pipeline status](https://gitlab.com/MiniDigger/paper-docs/badges/master/pipeline.svg)](https://gitlab.com/MiniDigger/paper-docs/commits/master)
 
+User-friendly description of paper patches.
+
+Master is deployed at https://paper-docs.minidigger.me
+
 ## Project setup
 ```
 yarn install
@@ -24,6 +28,3 @@ yarn run test
 ```
 yarn run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
